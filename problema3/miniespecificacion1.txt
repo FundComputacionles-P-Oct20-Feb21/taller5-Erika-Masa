@@ -1,0 +1,39 @@
+En una hosteria de la ciudad de Loja se hace un descuento del 10% si el cliente se hospeda más de 5 días, del 15% si se hospeda más de 10 días y del 20% si se hospeda más de 15 días. 
+Elaborar un solución que pida como datos de entrada el número de días y el precio diario de la habitación y luego calcule e imprima el subtotal por pagar,
+ el descuento y el total por pagar.
+1. Inicio
+2. dias, i[0, n]
+3. precio, d[0, n]
+4. descuento1, [0.10]
+5. descuento2, [0.15]
+6. descuento3, [0.20]
+7. multiplicacion, d[0, n]
+8. resta1, d[0, n]
+9. resta2, d[0, n]
+10. resta3, d[0, n]
+11.porcentaje1, d[0,n]
+12. porcentaje2, d[0,n]
+13. porcentaje3, d[0,n]
+14. porcentaje <-- 10
+15. porcentaje <-- 15
+16. porcentaje <-- 20
+17. Escribir "Ingrese el numero de dias"
+18. Leer dias
+19. Escribir "Ingrese el precio diario de la habitacion"
+20. Leer precio
+21. multiplicacion <-- dias * precio 
+22. resta1 <-- multiplicacion * descuento
+23. porcentaje1 <-- 10 <-- resta - multiplicacion
+24. resta2 <-- multiplicacion * descuento
+25. porcentaje2 <-- 15<-- resta - multiplicacion
+26. resta3 <-- multiplicacion * descuento
+27. porcentaje3 <-- 20 <-- resta - multiplicacion
+28.Si dias >= 10 Entonces
+29. Escribir "el valor a cancelar de la habitacion es:" + porcentaje1
+30.   Si dias >= 15 entonces
+31.      Escribir "el valor a cancelar de la habitacion es:" + porsentaje2
+32.          Si dias >= 20  entonces
+33.             Escribir "el valor a cancelar de la habitacion es:" + porcentaje3
+34.     Fin si
+35.   Fin si
+36. Fin
